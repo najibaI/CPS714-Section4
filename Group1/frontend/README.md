@@ -3,9 +3,7 @@
 ### 1. Ensure you have node.js installed to be able to use npm. 
    (You can install it from https://nodejs.org/)
    
-   You can verify its installed by typing in terminal
-
-   `npm -v`
+   You can verify its installed by typing in terminal `npm -v` <br>
    That should output the version number
    
    <img width="307" height="104" alt="image" src="https://github.com/user-attachments/assets/ba975bc9-6b9d-4326-b8aa-e8ae2482e9de" /><br>
