@@ -1,0 +1,11 @@
+/* Style the react components*/
+.App {
+  text-align: center;
+}
+
+/* JZ: just testing this css, feel free to delete/edit this */
+.RoomDropDown-wrapper { 
+  height: 40vmin;
+  pointer-events: none;
+  color : red;
+}
