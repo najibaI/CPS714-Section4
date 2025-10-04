@@ -21,8 +21,11 @@
 `npm install `
   
 ### 4. To run the app, on terminal enter
-   `npm start ` <br>
-  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.<br>
+   `npm start ` 
+
+   
+  (Open [http://localhost:3000](http://localhost:3000) to view it in your browser) <br>
 
   To stop the run, enter **CTRL+C** on terminal
   
+   FYI: keep it running while you work on the code: everytime you save changes to your code locally it will auto compile! Your browser will auto refresh with the new changes you made
