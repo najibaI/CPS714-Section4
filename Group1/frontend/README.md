@@ -1,6 +1,9 @@
 # Room and Resources Booking App
 ## How to run the react app
-### 1. Ensure you have node.js installed to be able to use npm. You can verify by typing in terminal
+### 1. Ensure you have node.js installed to be able to use npm. 
+   (You can install it from https://nodejs.org/)
+   
+   You can verify its installed by typing in terminal
 
    `npm -v`
    That should output the version number
