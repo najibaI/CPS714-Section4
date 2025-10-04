@@ -1,0 +1,10 @@
+{
+  "short_name": "Room Booking App",
+  "name": "Room and Resource Booking App",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
