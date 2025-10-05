@@ -6,6 +6,6 @@
 /* JZ: just testing this css, feel free to delete/edit this */
 .RoomDropDown-wrapper { 
   height: 40vmin;
-  pointer-events: none;
+  /*pointer-events: none; --> removed for room dropdown interaction*/ 
   color : red;
 }
