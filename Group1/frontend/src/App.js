@@ -2,8 +2,19 @@
 import './App.css';
 import React, { Component, useState, useEffect} from 'react';
 import { FormControl, FormControlLabel, FormHelperText, TextField, Checkbox, Button } from '@mui/material';
+import { useState } from "react";
 
 function CreateRoomBookingPage() {
+
+  /* Room Dropdown Button Handler */
+  const [roomSelected, setRoomSelected] = useState("");
+
+  // room options ranging from classrooms, lecture halls, and meeting rooms
+  const rooms = {
+    "Classrooms": ["KHW-057", "ENG202", "ENG411"],
+    "Lecture Halls": ["DSQ09", "LIB072", "ENG103"],
+    "Meeting Rooms": ["ENG358", "ILC-224", "SLC-831"],
+  };
   
   /* Projector Textfield Handler */
   //Initialize default projector to 0
@@ -42,7 +53,31 @@ function CreateRoomBookingPage() {
   return (
     <div className="container">
       <div className="RoomDropDown-wrapper">
-        For Najiba - room dropdown code goes here
+        <label htmlFor="roomDropdown">Select a Room: </label>
+        <select
+          id="roomDropdown"
+          value={roomSelected}
+          onChange={(e) => setRoomSelected(e.target.value)}
+        >
+          <option value="" disabled>
+            -- Choose Room --
+          </option>
+          {Object.entries(rooms).map(([category, roomList]) => (
+            <optgroup key={category} label={category}>
+              {roomList.map((room) => (
+                <option key={room} value={room}>
+                  {room}
+                </option>
+              ))}
+            </optgroup>
+          ))}
+        </select>
+
+        {roomSelected && (
+          <p style={{ marginTop: "10px" }}>
+            You selected: <strong>{roomSelected}</strong>
+          </p>
+        )}
       </div>
       <div className="Calender-wrapper">
         For Alwin - calender dropdown code goes here
