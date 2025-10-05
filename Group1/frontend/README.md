@@ -20,6 +20,7 @@
 
 ### 3. In the frontend folder, on terminal enter
 `npm install `
+'npm install @mui/material'
   
 ### 4. To run the app, on terminal enter
    `npm start ` 
