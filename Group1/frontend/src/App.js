@@ -1,4 +1,4 @@
-//add your improts above
+//add your imports above
 import './App.css';
 import React, { Component, useState, useEffect} from 'react';
 import { FormControl, FormControlLabel, FormHelperText, TextField, Checkbox, Button } from '@mui/material';
@@ -73,8 +73,8 @@ function CreateRoomBookingPage() {
         </select>
 
       </div>
-      <div className="Calender-wrapper">
-        For Alwin - calender dropdown code goes here
+      <div className="Calendar-wrapper">
+        For Alwin - calendar dropdown code goes here
       </div>
       <div className="ResourceButtons-wrapper">
         <div className = "ResourceProjector-wrappper">
