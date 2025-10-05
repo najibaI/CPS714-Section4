@@ -72,11 +72,6 @@ function CreateRoomBookingPage() {
           ))}
         </select>
 
-        {roomSelected && (
-          <p style={{ marginTop: "10px" }}>
-            You selected: <strong>{roomSelected}</strong>
-          </p>
-        )}
       </div>
       <div className="Calender-wrapper">
         For Alwin - calender dropdown code goes here
